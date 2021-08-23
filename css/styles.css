@@ -1,0 +1,106 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-size: 13px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+header>img {
+    width: 100%;
+    height: 100px;
+}
+
+/* Add a background to the top navigation */
+nav {
+    background-color:cornflowerblue;
+    text-align: center;
+}
+
+/* Style the links inside the nav */
+nav > a {
+     color: black;
+     font-size: large;
+     margin: 5px;
+}
+
+nav > a:hover {
+    background-color: chocolate;
+    color: cornsilk;
+   
+}
+
+/* Profile image */
+.headshot {
+     position: absolute;
+     margin-top: 2%;
+     margin-left: 6%;
+}
+
+.mypic {
+    border-radius: 100%;
+    height: 200px;
+    width: 200px;
+    
+}
+
+
+/* Page content */
+.pagecontent {
+    margin-top: 100px;
+    margin: auto;
+    width: 70%;
+    margin-top: 100px;
+}
+
+.pagecontent > .about > p {
+    padding: 2px;
+    margin: 5%;
+    color: #803376;
+}
+
+.about {
+    font-size: 1.2rem;
+}
+
+/* begin contact */
+.contact {
+    border: 1px solid rgb(109, 103, 103);
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 70%;
+    margin: auto;
+    font-size: 1.2em;
+  }
+
+  input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+  input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+/* end contact  */
+footer {
+    padding-top: 40px;
+    text-align: center;
+    font-size: 1em;
+  }
